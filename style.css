@@ -1,9 +1,60 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Merriweather', serif;
     margin: 0;
 }
 
 h1 {
 
     font-size: 50px;
+}
+
+.fontcolor {
+
+    color: rgb(75, 63, 246);
+}
+
+.fcolor {
+    color: rgb(97, 93, 93);
+}
+
+.linkButton {
+    text-decoration: none;
+    background-image: linear-gradient(blue, skyblue);
+    color: white;
+    font-weight: 600;
+    padding: 15px 30px;
+    border-radius: 10px;
+
+
+}
+
+.flex_container {
+
+    display: flex;
+    margin-bottom: 150px;
+
+
+}
+
+.halfwidth {
+    width: 50%;
+    padding-left: 5%
+}
+
+.halfwidth img {
+
+    height: 30%;
+}
+
+#setmargin {
+
+    margin: 0;
+}
+
+
+.headbg {
+
+    background-image: url(images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+
 }
